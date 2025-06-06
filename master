@@ -1,0 +1,56 @@
+{
+  "type": "judge",
+  "data": {
+    "compile": {
+      "success": true,
+      "message": "/tmp/compiler_y2u2icgr/src: 在函数‘void dfs(int, int, char, int)’中:\n/tmp/compiler_y2u2icgr/src:28:16: 警告：数组下标类型为‘char’ [-Wchar-subscripts]\n    move_to(psw[wy]);\n                ^\n",
+      "opt2": true
+    },
+    "judge": {
+      "id": 0,
+      "status": 0,
+      "score": 0,
+      "time": 0,
+      "memory": 0,
+      "subtasks": [
+        {
+          "id": 0,
+          "status": 0,
+          "score": 0,
+          "time": 0,
+          "memory": 0,
+          "cases": [
+            {
+              "id": 0,
+              "status": 0,
+              "score": 0,
+              "time": 0,
+              "memory": 0,
+              "signal": 0,
+              "exitCode": 0,
+              "description": "string"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "requestId": "1BwHdxEa4LTFnL619bxRwC",
+  "trackId": "string"
+}16eec16dec593350894c3c6d413691a1ae08cae7a14b9d6d10
+12 6 12 15 20 8 17 12 15
+8
+4 10
+7 3
+6 14
+9 9
+2 10
+3 5
+4 11
+7 11{
+  "pid": "P1001",
+  "lang": "cxx/14/gcc",
+  "o2": true,
+  "code": "#include <stdio.h>\nint main() {\n    int a,b;\n    scanf(\"%d%d\",&a,&b);\n    printf(\"%d\\n\", a+b);\n    return 0;\n}\n",
+  "trackId": "string"
+}
